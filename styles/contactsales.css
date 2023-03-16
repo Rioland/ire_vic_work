@@ -1,0 +1,123 @@
+body a {
+    text-decoration: none;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-items: center;
+    size: small;
+
+
+}
+
+.btn-gray {
+    background-color: gray !important;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.btn-gray:hover {
+    background-color: #151557 !important;
+    color: #fff !important;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    height: fit-content;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    padding-left: 0px;
+
+
+}
+
+nav li {
+    padding: 10px;
+
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+nav img {
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+    padding-right: 0px;
+    width: 300px;
+}
+
+nav a {
+    text-decoration: none;}
+
+
+    .div1{
+        font-size: 24px;
+    }
+
+.call{
+    height: 60px;
+    width: 350px;
+    border-radius: 10px;
+    border:1px solid rgb(165, 165, 171);
+    padding-left: 10px;
+    margin-bottom: 7px;
+    font-weight:bold;
+}
+.con1{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.div2{
+    margin-left: 50px;
+    width: fit-content;
+}
+
+.call2{
+    border:1px solid rgb(165, 165, 171);
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.send{
+    width: fit-content;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    padding: 25px 110px 40px 100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+form{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+@media (max-width: 775.98px) {
+    body{
+        overflow-x: hidden !important;
+        
+    }
+    .con1{
+        display: flex;
+        flex-direction: column;
+        margin: 5px !important;
+    }
+
+ }

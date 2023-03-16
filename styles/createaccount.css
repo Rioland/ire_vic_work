@@ -1,0 +1,100 @@
+body{
+    padding: 0px;
+    
+
+}
+.navbar {
+  
+    display: flex;
+    flex-direction: row;
+
+}
+nav .btn{
+   
+    background-color: orange;
+}
+.btn:hover {
+  background-color:rgb(141, 96, 29) !important;
+}
+.navbar img {
+    width: 300px;
+    height: 100px;
+
+
+    
+}
+.input .contact {
+    background-color: whitesmoke;
+    width:25%;
+    margin-left: 90px;
+    padding-left: 20px;
+    height: 650px;
+
+}
+.input{
+    display: flex;
+    flex-direction: row;
+} 
+.input .notes {
+    margin-left: 40px;
+    
+}
+.pick{
+    width: 300px;
+}
+.input input {
+    width: 300px;
+}
+
+
+/* css ini added
+form{
+    background-color: red;
+    border-radius: 10px;
+}
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  body{
+    padding: 0px;
+    overflow-x:hidden;
+
+  }
+  .input{ 
+    display: flex;
+    flex-direction: column;
+}
+.input .contact {
+    background-color: whitesmoke;
+    width:360px;
+    margin-left: 45px;   
+   height: 650px;
+   padding-left: 30px;
+}
+.next{
+    margin-left: 30px;
+}
+.navbar img {
+    width: 200px;
+    height: 100px;
+
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  
+   
+}
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    
+ }
+ /* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+ 
+ }
+ /* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+   
+ }
+
+
+}
